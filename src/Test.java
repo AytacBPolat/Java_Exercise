@@ -22,7 +22,5 @@ public class Test {
     String Sonuc = (ortalama > gecmeNotu) ? ("Ortalama " + gecmeNotu + " üstünde, geçer. ") : ("Ortalama " + gecmeNotu + " altında geçmez.");
    System.out.println(Sonuc);
     }
-
-
 }
 
