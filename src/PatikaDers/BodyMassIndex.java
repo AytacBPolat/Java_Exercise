@@ -10,5 +10,6 @@ public class BodyMassIndex {
         weight = input.nextDouble();
         index = (weight /(height*height));
         System.out.println("Your index is: " + index);
+
     }
 }
