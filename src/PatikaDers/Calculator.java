@@ -21,6 +21,9 @@ public class Calculator {
             System.out.println("The result is : " + result);
             break;
             case 4: result = num1 / num2;
+            if (num2 == 0){
+                System.out.println("Error, please select a new number other than 0 ");
+            }
             System.out.println("The result is : " + result);
             break;
         }
