@@ -19,10 +19,10 @@ public class Passmark {
         avr = (math + physics + biology + chemistry + history + music)/6;
         if(avr>=passMark){
             System.out.println("Congratulations! You passed.");
-            System.out.println("Your average score is: "+avr);
+
         }else{
             System.out.println("Sorry, you didn't pass!.");
-            System.out.println("Your average score is: "+avr);
         }
+        System.out.println("Your average score is: "+avr);
     }
 }
