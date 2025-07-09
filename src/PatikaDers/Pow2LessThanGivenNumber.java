@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pow2LessThenGivenNumber {
+public class Pow2LessThanGivenNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number :");
