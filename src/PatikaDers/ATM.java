@@ -15,8 +15,8 @@ public class ATM {
             if (username.equals("admin") && password.equals("password")) {
                 System.out.println("Welcome");
                do {
-                   System.out.println("Please choose the operation you want to perform. ");
                    System.out.println("1 - Deposit\n" + "2 - Withdrawal\n" + "3 - Balance Inquiry\n" + "4 - Exit");
+                   System.out.println("Please choose the operation you want to perform: ");
                     selection = input.nextInt();
                     if (selection == 1) {
                         System.out.println("Please enter the amount you want to deposit: ");
