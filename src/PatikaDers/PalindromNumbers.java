@@ -15,17 +15,12 @@ public class PalindromNumbers {
     }else{
         System.out.print(number + " is not palindrom.");
         return false;
+        }
     }
-
-    }
-
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = input.nextInt();
         isPalindrom(number);
-
     }
 }
