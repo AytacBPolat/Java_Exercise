@@ -6,7 +6,6 @@ public class Main {
         Course math = new Course("Mathematics", "MTH","121",t1);
         Course physics = new Course("Physics","PHY","154",t2);
         Course music = new Course("Music","MSC","782",t2);
-       // math.printTeacherInfo();
         math.addTeacher(t1);
         physics.addTeacher(t2);
         music.addTeacher(t3);
